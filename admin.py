@@ -16,3 +16,13 @@ def demo():
       print(count)
 
 demo()
+
+class Admin():
+  def __init__(self,a,b):
+    self.admin=a
+    self.data=b
+  def new(self):
+    print(self.admin, self.data)
+    
+inst1=Admin("Kamil","Babayev")
+inst1.new()
